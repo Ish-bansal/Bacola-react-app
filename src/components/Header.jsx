@@ -13,10 +13,10 @@ const Header = () => {
 <div className="column column-left"> 
     <nav className="site-menu horizontal">
      <ul id="menu-top-left" className="menu">
-        <li id="menu-item-1893" className="menu-item menu-item-type-post_type menu-item-object-page menu-item-1893"><a href="https://klbtheme.com/bacola/about-us/">About Us</a></li> 
-        <li id="menu-item-1892" className="menu-item menu-item-type-post_type menu-item-object-page menu-item-1892"><a href="https://klbtheme.com/bacola/my-account/">My account</a></li>
-         <li id="menu-item-1891" className="menu-item menu-item-type-post_type menu-item-object-page menu-item-1891"><a href="https://klbtheme.com/bacola/wishlist/">Wishlist</a></li> 
-         <li id="menu-item-1890" className="menu-item menu-item-type-post_type menu-item-object-page menu-item-1890"><a href="https://klbtheme.com/bacola/order-tracking/">Order Tracking</a></li> 
+        <li id="menu-item-1893" className="menu-item menu-item-type-post_type menu-item-object-page menu-item-1893"><a href="/about">About Us</a></li> 
+        <li id="menu-item-1892" className="menu-item menu-item-type-post_type menu-item-object-page menu-item-1892"><a href="/account">My account</a></li>
+         <li id="menu-item-1891" className="menu-item menu-item-type-post_type menu-item-object-page menu-item-1891"><a href="/wishlist">Wishlist</a></li> 
+         <li id="menu-item-1890" className="menu-item menu-item-type-post_type menu-item-object-page menu-item-1890"><a href="/ordertrack">Order Tracking</a></li> 
      </ul> 
     </nav>
 </div>

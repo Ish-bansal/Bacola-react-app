@@ -3,8 +3,9 @@ import React from 'react'
 const Nav = () => {
     return (
         <>
-        <div className="site-canvas">
-    <div className="site-scroll">
+        <div className="site-canvas" >
+        {/* style={{opacity:"1",visibility:"inherit",transform:"translate(0px,0px)"}}  */}
+    <div className="site-scroll ps ">
     <div className="canvas-header">
     <div className="site-brand"> <a href="https://klbtheme.com/bacola/" title="Bacola &#8211; Grocery Market and Food Theme"> <img src="https://klbtheme.com/bacola/wp-content/uploads/2021/04/bacola-logo.png" width="127" height="34" alt="Bacola &#8211; Grocery Market and Food Theme"/> </a></div><div className="close-canvas"> <i className="klbth-icon-x"></i></div></div><div className="canvas-main">
     <div className="site-location">

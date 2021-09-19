@@ -1,20 +1,23 @@
 import Header from "./components/Header";
 import Nav from "./components/Nav";
-import Content from "./components/Content";
+import Product from "./components/productView";
 import Footer from "./components/Footer";
-// import './assets/css/base.css'
 import './assets/css/main.css'
 import './assets/css/media.css'
 import './assets/css/header.css'
 import './assets/css/element.css'
-const Home=()=>{
-  return(<>
-    <Nav/>
-  <Header/>
-  <Content/>
-  <Footer/>
-  </>
-  )
+
+const Products = () => {
+    return (
+        <>
+             <Nav/>
+             <Header/>
+            <Product/>
+            <Footer/>
+            
+        </>
+    )
 }
 
-export default Home;
+export default Products
+
